@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bddpddxkwkyvi"]
+
+[ext_resource type="Texture2D" uid="uid://c80555b0qtap2" path="res://icon.svg" id="1_agnfi"]
+[ext_resource type="Script" uid="uid://ugfpdh0frauj" path="res://documentation_example.gd" id="1_gjnym"]
+
+[node name="DocumentationExample" type="Node2D"]
+script = ExtResource("1_gjnym")
+
+[node name="BuddyPal" type="Sprite2D" parent="."]
+position = Vector2(577, 333)
+texture = ExtResource("1_agnfi")
